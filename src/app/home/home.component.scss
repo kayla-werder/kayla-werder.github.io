@@ -1,0 +1,49 @@
+img {
+  background-image: url("../img/prof.jpg");
+  background-position: 50% 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  width: 12vmax;
+  height: 12vmax;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+:host ::ng-deep .mat-tab-label {
+  background: #7c46ee;
+  color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.65);
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 250px;
+  margin: 0 5px;
+}
+
+:host ::ng-deep .mat-ink-bar {
+  background-color: #7c46ee;
+}
+
+:host ::ng-deep .mat-ripple-element {
+  position: absolute;
+}
+
+:host ::ng-deep .mat-tab-header-pagination-chevron {
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

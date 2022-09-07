@@ -1,0 +1,24 @@
+.error-block {
+  padding: 35px;
+  margin-bottom: 40px;
+  height: 30vmax;
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.65);
+  background-color: #7c46ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4vmax;
+  color: #000;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 2vmax;
+  color: #fff;
+}

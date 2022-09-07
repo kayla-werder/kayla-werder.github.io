@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <title>Kayla Werder</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <a routerLink="/home"> <h1 class="logo">KW</h1></a>
+          <ul>
+            <li><a routerLink="/home">About</a></li>
+            <li><a routerLink="/certifications">Certifications</a></li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/kaylawerder/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="mailto:kaylawerder28@gmail.com">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+
+    <div class="row">
+      <div class="column bg-light">
+        <i class="fas fa-envelope-open-text fa-3x"></i>
+        <p class="p-info">kaylawerder28@gmail.com</p>
+      </div>
+      <div class="column bg-dark">
+        <i class="fas fa-regular fa-award fa-3x"></i>
+        <a
+          href="https://www.credly.com/users/kayla-werder/badges"
+          target="_blank"
+          ><p class="p-info">Certifications</p></a
+        >
+      </div>
+      <div class="column bg-light">
+        <i class="fas fa-solid fa-globe-americas fa-3x"></i>
+
+        <p class="p-info">Raleigh, NC</p>
+      </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+      <p>Designed by Kayla Werder &copy; 2022</p>
+    </footer>
+  </body>
+</html>

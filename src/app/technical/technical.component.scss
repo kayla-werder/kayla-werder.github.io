@@ -1,0 +1,44 @@
+.certifications {
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  width: 10vmax;
+  height: 10vmax;
+  background-size: contain;
+  margin: 1vmax;
+  background-color: aliceblue;
+}
+
+.aws-badge-ccp {
+  background-image: url("../img/cloud practitioner badge.png");
+  width: 12vmax;
+  height: 12vmax;
+}
+
+.aws-badge-dva {
+  background-image: url("../img/aws-certified-developer-associate.png");
+  width: 12vmax;
+  height: 12vmax;
+}
+
+.bcs-badge {
+  background-image: url("../img/bcs.png");
+  border-radius: 5%;
+}
+
+.onex-badge {
+  background-image: url("../img/onex-agile.png");
+  border-radius: 5%;
+}
+
+.cxbaseline-badge {
+  background-image: url("../img/cxbaseline.png");
+  border-radius: 5%;
+}
+
+.onex-agile-badge {
+  background-image: url("../img/onex-agile-ways-of-working.png");
+  border-radius: 5%;
+}
