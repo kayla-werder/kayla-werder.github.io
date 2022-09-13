@@ -7,7 +7,7 @@
   }
   h1 {
     float: left;
-    padding-top: 20px;
+    padding-top: 1vmax;
   }
   ul {
     float: right;
@@ -16,7 +16,7 @@
       float: left;
       a {
         display: block;
-        padding: 20px;
+        padding: 1vmax;
         text-align: center;
         &:hover {
           background: #7c46ee;
@@ -39,7 +39,7 @@
   text-align: center;
   overflow-wrap: break-word;
   i {
-    margin-bottom: 10px;
+    margin-bottom: 1vmax;
   }
   a {
     color: white;
@@ -51,7 +51,7 @@
 }
 
 .p-info {
-  font-size: 20px;
+  font-size: 1.2vmax;
 }
 
 .bg-dark {
@@ -64,7 +64,7 @@
 }
 
 #main-footer {
-  font-size: 15px;
+  font-size: 1vmax;
   text-align: center;
   background: #000104;
   color: white;
