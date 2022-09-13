@@ -11,9 +11,15 @@ import { HomeComponent } from './home/home.component';
 import { TechnicalComponent } from './technical/technical.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, TechnicalComponent, PagenotfoundComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    TechnicalComponent,
+    PagenotfoundComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -24,7 +30,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MDBBootstrapModule.forRoot(),
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
